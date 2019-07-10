@@ -1,7 +1,8 @@
 import React from 'react';
+import './pnr.css'
 
 const Pnr = () => {
-  return <div>
+  return <div className='container text-center'>
       <h3>PNR status</h3>
          </div>
 }
