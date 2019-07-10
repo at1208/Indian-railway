@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from './header'
-import NavBar from './navbar'
+import Header from './Header/header'
+import NavBar from './NavBar/navbar'
 
 const App = () => {
   return <div>
