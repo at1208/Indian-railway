@@ -1,8 +1,9 @@
 import React from 'react';
+import './header.css'
 
 const Header = () => {
-  return <div className='jumbotron text-center'>
-     <h1>Indian Railway</h1>    
+  return <div className='jumbotron text-center h1'>
+     <h1 className='h'>Indian Railway</h1>
   </div>
 }
 export default Header;

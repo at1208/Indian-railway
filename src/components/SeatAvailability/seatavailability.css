@@ -1,0 +1,15 @@
+.o1{
+    margin-Top: 50px;
+    height:300px;
+    width: 400px;
+    padding-top: 10px;
+}
+.o2{
+  width: 172px;
+  height: 28px;
+  background-color: #33d9b2;
+  color: black;
+  font-weight: bold;
+  border-style: groove;
+
+}

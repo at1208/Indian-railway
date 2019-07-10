@@ -42,10 +42,10 @@ console.log(this.state.TrainBetweenStation);
 render() {
 
 
-  return <div className='container text-center b1'>
+  return <div className='container shadow  text-center b1'>
 
  <div className='container'>
- <h3>Train Between Station</h3>
+ <h3 className='z3'>Train Between Station</h3>
 
 
   <form onSubmit={this.OnSubmission} >
@@ -53,19 +53,23 @@ render() {
       <input
       onChange={(e) => { this.setState({ boarding_station: e.target.value}) }}
       value={this.state.boarding_station}
-      placeholder='Boarding station' />
+      placeholder='Boarding station'
+      className='z2 text-center' />
+
   <br />
 
 
       <input
       onChange={(e) => { this.setState({ destination_station: e.target.value}) }}
       value={this.state.destination_station}
-      placeholder='Destination station'  />
+      placeholder='Destination station'
+      className='z2 text-center'  />
 
   <br />
 
-
-  <button onClick={this.OnSubmitClick}>Submit</button>
+  <div className='justify-content-center row'>
+  <button onClick={this.OnSubmitClick} className='btn-block text-center o2' >Submit</button>
+  </div>
 
   </form>
 
