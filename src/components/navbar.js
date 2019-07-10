@@ -6,19 +6,19 @@ const NavBar = () => {
   return <div className='container'>
     <div className='row'>
       <button className='col-sm btn btn-sm shadow text-center a1'>
-      Live Train status
+      <Link to='live-train-status'> Live Train status </Link>
       </button>
 
       <button className='col-sm btn btn-sm shadow text-center a1'>
-      PNR status
+      <Link to='/pnr-status'>PNR status</Link>
       </button>
 
       <button className='col-sm btn btn-sm shadow text-center a1'>
-      Train Route
+      <Link to='/train-route'>Train Route</Link>
       </button>
 
       <button className='col-sm btn btn-sm shadow text-center a1'>
-      Seat Availability
+      <Link to='/seat-availability'>Seat Availability</Link>
       </button>
 
       <button className='col-sm btn btn-sm shadow text-center a1'>
@@ -26,15 +26,13 @@ const NavBar = () => {
       </button>
 
       <button className='col-sm  btn btn-sm shadow text-center a1'>
-      Train Fair Enquiry
+      <Link to='/train-fair'>Train Fair Enquiry</Link>
       </button>
 
-      <button className='col-sm btn btn-sm shadow text-center a1'>
-      Train Arrival
-      </button>
+     
 
       <button className='col-sm btn btn-sm shadow text-center a1'>
-      Cancelled Train
+      <Link to='/cancelled-train'>Cancelled Train</Link>
       </button>
 
     </div>
