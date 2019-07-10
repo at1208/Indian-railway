@@ -13,9 +13,7 @@ const NavBar = () => {
       <Link to='/pnr-status'>PNR status</Link>
       </button>
 
-      <button className='col-sm btn btn-sm shadow text-center a1'>
-      <Link to='/train-route'>Train Route</Link>
-      </button>
+       
 
       <button className='col-sm btn btn-sm shadow text-center a1'>
       <Link to='/seat-availability'>Seat Availability</Link>
@@ -29,7 +27,7 @@ const NavBar = () => {
       <Link to='/train-fair'>Train Fair Enquiry</Link>
       </button>
 
-     
+
 
       <button className='col-sm btn btn-sm shadow text-center a1'>
       <Link to='/cancelled-train'>Cancelled Train</Link>
