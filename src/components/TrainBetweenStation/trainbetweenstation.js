@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './trainbetweenstation.css'
 import axios from 'axios'
+import EachTrain from './eachtrain'
+
 
 
 
@@ -33,17 +35,35 @@ OnSubmitClick =  async (e) => {
 console.log(this.state.TrainBetweenStation);
  await axios.get(URL)
 
-       .then((data) => this.setState({ TrainBetweenStation: data }))
+       .then((response) => this.setState({ TrainBetweenStation: response.data.Trains }))
        .catch((err) => console.log(err))
 
 }
 
 
+
+
 render() {
 
+  const TrainsList = () => {
+    let Trains
+    const trainList = this.state.TrainBetweenStation
+    Trains = trainList.map((train) => {
+      return [train.TrainNo,train.TrainName, train.Source,train.Destination,train.ArrivalTime, train.DepartureTime,  train.TrainType, train.TravelTime ]
+    })
+  return Trains
+  }
 
-  return <div className='container shadow  text-center b1'>
+  const finaltrainKAlist = () => {
+    const mappingtrain = TrainsList().map((data) => {
+      return <EachTrain train={data}/>
+    })
+    return mappingtrain;
+  }
 
+
+  return <div>
+<div className='container shadow  text-center b1'>
  <div className='container'>
  <h3 className='z3'>Train Between Station</h3>
 
@@ -76,7 +96,16 @@ render() {
 
 </div>
 
+
+
+         </div >
+
+         <div className='container text-center  justify-content-center'>
+         {finaltrainKAlist()}
          </div>
+
+         </div>
+
 }
 }
 
