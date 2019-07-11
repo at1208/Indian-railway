@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 const NavBar = () => {
   return <div className='container text-center'>
+  <h1>Indian Railway</h1>
     <div className='row text-center'>
 
     <Link to='live-train-status' className='col-lg  shadow text-center a1'>
