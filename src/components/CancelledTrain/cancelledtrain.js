@@ -1,21 +1,24 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './cancelledtrain.css'
 
-const CancelledTrain = () => {
-  return <div className='container shadow text-center z1'>
-      <h3 className='z3'>Cancelled Train</h3>
-   <form>
-      <input
-      placeholder='DD/MM/YYYY'
-      className='z2 text-center'
-      />
+class CancelledTrain extends Component {
+  render(){
+    return <div className='container shadow text-center z1'>
+        <h3 className='z3'>Cancelled Train</h3>
+     <form>
+        <input
+        placeholder='DD/MM/YYYY'
+        className='z2 text-center'
+        />
 
-    <div className='justify-content-center row'>
-      <button  className='btn-block text-center o2'>Submit</button>
-    </div>
+      <div className='justify-content-center row'>
+        <button  className='btn-block text-center o2'>Submit</button>
+      </div>
 
-  </form>
+    </form>
 
-         </div>
-}
+           </div>
+  }
+  }
+
 export default CancelledTrain;

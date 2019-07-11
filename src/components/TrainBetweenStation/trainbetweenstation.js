@@ -73,7 +73,7 @@ render() {
       <input
       onChange={(e) => { this.setState({ boarding_station: e.target.value}) }}
       value={this.state.boarding_station}
-      placeholder='Boarding station'
+      placeholder='Source station'
       className='z2 text-center' />
 
   <br />
