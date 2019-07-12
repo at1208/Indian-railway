@@ -15,7 +15,12 @@
   width: 350px;
   margin-top: 30px;
   padding: 10px;
-    background-color:white
+  background-color:white;
+
+}
+.m01{
+  border-style: solid;
+  border-color: #f9ca24;
 }
 .m4{
   width: 140px;
@@ -23,6 +28,16 @@
 .m5{
   font-weight: bold;
   font-size: 20px;
+  background-color: #f9ca24;
+}
+.m05{
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #C4E538
+}
+.m005{
+  border-style: solid;
+  border-color:#C4E538
 }
 .m6{
   margin: 50px;
