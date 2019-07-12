@@ -7,7 +7,7 @@ import axios from 'axios'
 const API_KEY =  '3d7ea2ca4f4f756131d7ea423c70ae5a';
 
 class LiveTrainStatus extends Component {
-  
+
   state = {
     TrainNo : '',
     date: '',
@@ -62,15 +62,15 @@ OnSubmitClick = async () => {
       return <div className='container  m3 m005 shadow text-center justify-content-center' key={way.StationName}>
           <div>
         <h1 className='m05 text-center'>{way.StationName}</h1>
-        <h1 className='m2 shadow' ><span className='k6 m7'>Day</span> <span className='float-right m4'>{way.Day}</span></h1>
-        <h1 className='m2 shadow'><span className='k6 m7'>Station Name</span> <span className='float-right m4'>{way.StationName}</span></h1>
-        <h1 className='m2 shadow'><span className='k6 m7'>Station Name</span> <span className='float-right m4'>{way.StationCode}</span></h1>
-        <h1 className='m2 shadow'><span className='k6 m7'>Actual Arrival</span> <span className='float-right m4'>{way.ActualArrival}</span></h1>
-        <h1 className='m2 shadow'><span className='k6 m7'>Actual Departure</span> <span className='float-right m4'>{way.ActualDeparture}</span></h1>
-        <h1 className='m2 shadow'><span className='k6 m7'>Delay In Arrival</span> <span className='float-right m4'>{way.DelayInArrival}</span></h1>
-        <h1 className='m2 shadow'><span className='k6 m7'>Delay In Departure</span> <span className='float-right m4'>{way.DelayInDeparture}</span></h1>
-        <h1 className='m2 shadow'><span className='k6 m7'>Schedule Arrival</span> <span className='float-right m4'>{way.ScheduleArrival}</span></h1>
-        <h1 className='m2 shadow'><span className='k6 m7'>Schedule Departure</span><span className='float-right m4'>{way.ScheduleDeparture}</span></h1>
+        <h1 className='m2 shadow' ><span className='k6 m8'>Day</span> <span className='float-right m4'>{way.Day}</span></h1>
+        <h1 className='m2 shadow'><span className='k6 m8'>Station Name</span> <span className='float-right m4'>{way.StationName}</span></h1>
+        <h1 className='m2 shadow'><span className='k6 m8'>Station Name</span> <span className='float-right m4'>{way.StationCode}</span></h1>
+        <h1 className='m2 shadow'><span className='k6 m8'>Actual Arrival</span> <span className='float-right m4'>{way.ActualArrival}</span></h1>
+        <h1 className='m2 shadow'><span className='k6 m8'>Actual Departure</span> <span className='float-right m4'>{way.ActualDeparture}</span></h1>
+        <h1 className='m2 shadow'><span className='k6 m8'>Delay In Arrival</span> <span className='float-right m4'>{way.DelayInArrival}</span></h1>
+        <h1 className='m2 shadow'><span className='k6 m8'>Delay In Departure</span> <span className='float-right m4'>{way.DelayInDeparture}</span></h1>
+        <h1 className='m2 shadow'><span className='k6 m8'>Schedule Arrival</span> <span className='float-right m4'>{way.ScheduleArrival}</span></h1>
+        <h1 className='m2 shadow'><span className='k6 m8'>Schedule Departure</span><span className='float-right m4'>{way.ScheduleDeparture}</span></h1>
         </div>
             </div>
 

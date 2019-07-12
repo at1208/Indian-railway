@@ -21,17 +21,14 @@ const NavBar = () => {
       </Link>
 
       <Link to='/train-between-stations' className='col-lg  shadow text-center a1 '>
-       Train B/W Stations
+       Train B/w Stations
       </Link>
 
        <Link to='/train-fair' className=' col-lg shadow text-center a1 '>
-      Train Fair Enquiry
+      Train Fair
       </Link>
 
 
-      <Link to='/cancelled-train' className='col-lg shadow text-center a1 '>
-      Cancelled Train
-      </Link>
 
     </div>
   </div>

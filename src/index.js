@@ -9,7 +9,7 @@
 
  import SeatAvailability from './components/SeatAvailability/seatavailability'
  import TrainFair from './components/TrainFair/trainfair'
- import CancelledTrain from './components/CancelledTrain/cancelledtrain'
+ 
 
 
 ReactDOM.render(
@@ -20,10 +20,10 @@ ReactDOM.render(
            <Route path='/live-train-status' component={LiveTrainStatus} />
            <Route path='/train-between-stations' component={TrainBetweenStations} />
            <Route path='/pnr-status' component={Pnr}/>
-           
+
            <Route path='/seat-availability' component={SeatAvailability}/>
            <Route path='/train-fair' component={TrainFair}/>
-           <Route path='/cancelled-train' component={CancelledTrain}/>
+
            </div>
 
            </BrowserRouter>, document.getElementById('root'));

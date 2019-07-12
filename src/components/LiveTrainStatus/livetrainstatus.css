@@ -20,7 +20,7 @@
 }
 .m01{
   border-style: solid;
-  border-color: #f9ca24;
+  border-color: #ED4C67;
 }
 .m4{
   width: 140px;
@@ -28,7 +28,7 @@
 .m5{
   font-weight: bold;
   font-size: 20px;
-  background-color: #f9ca24;
+  background-color: #ED4C67;
 }
 .m05{
   font-weight: bold;
@@ -44,4 +44,9 @@
 }
 .m7{
   margin-left: 30px;
+  color: #ED4C67;
+}
+.m8{
+  margin-left: 30px;
+ color: #009432
 }
