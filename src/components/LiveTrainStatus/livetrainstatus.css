@@ -12,15 +12,21 @@
 }
 
 .m3{
-  width: 300px;
+  width: 350px;
   margin-top: 30px;
   padding: 10px;
-    background-color:#dff9fb
+    background-color:white
 }
 .m4{
-  width: 120px;
+  width: 140px;
 }
 .m5{
   font-weight: bold;
   font-size: 20px;
+}
+.m6{
+  margin: 50px;
+}
+.m7{
+  margin-left: 30px;
 }
